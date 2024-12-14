@@ -2,7 +2,6 @@ headless:
   ports:
   - name: mysql
     port: 3306
-    targetPort: 0
   type: ClusterIP
 kubernetesClusterDomain: cluster.local
 msaDb:
