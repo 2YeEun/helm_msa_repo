@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  base-chart:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-12-15T20:46:59.724591+09:00"
+    description: A Helm chart for Kubernetes
+    digest: a79d1be0c391e198d20defab6664936f5b45ca6226ec8f78aa1abd539be0f8ee
+    name: base-chart
+    type: application
+    urls:
+    - https://wild-mental.github.io/helm_msa_repo/docs/base-chart-0.1.0.tgz
+    version: 0.1.0
   msa-main:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-12-15T20:33:37.599104+09:00"
+    created: "2024-12-15T20:46:59.725001+09:00"
     description: A Helm chart for Kubernetes
     digest: 3f00b3ea5a1fbbc5cef5e3405d0b274fc490ea339a73c38f0eee70547d622116
     name: msa-main
@@ -14,7 +25,7 @@ entries:
   msa-review:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-12-15T20:33:37.599403+09:00"
+    created: "2024-12-15T20:46:59.725374+09:00"
     description: A Helm chart for Kubernetes
     digest: 2a3597e4e55585823d03931b8f814e7a7cd27f359908d6d503447e43e63159ba
     name: msa-review
@@ -25,11 +36,11 @@ entries:
   msa-user:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-15T20:33:37.599657+09:00"
+    created: "2024-12-15T20:46:59.726002+09:00"
     description: Helm chart for MSA User service
     digest: 81c8da5d42a25b38174425074214cbf0df72151925406fa2845fa309dac1d66d
     name: msa-user
     urls:
     - https://wild-mental.github.io/helm_msa_repo/docs/msa-user-1.0.0.tgz
     version: 1.0.0
-generated: "2024-12-15T20:33:37.598524+09:00"
+generated: "2024-12-15T20:46:59.724297+09:00"
